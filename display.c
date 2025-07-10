@@ -14,7 +14,7 @@
 
 // Array para armazenar os valores de tensão para plotar a curva
 float tensao_history[128];
-int history_index = 0;
+int history_index =  0 ;
 
 // Filtro de média móvel para suavizar os dados
 #define FILTER_SIZE 8
