@@ -19,7 +19,7 @@ int history_index =  0 ;
 // Filtro de média móvel para suavizar os dados
 #define FILTER_SIZE 8
 float adc_buffer[FILTER_SIZE];
-int buffer_index = 0;
+int buffer_index =  0 ;
 
 // Função para calcular média móvel
 float smooth_adc_value(uint16_t raw_value) {
